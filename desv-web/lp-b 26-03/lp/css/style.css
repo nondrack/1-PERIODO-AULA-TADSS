@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    float: right;
+    ul {
+        list-style: none;
+        font-family: Arial;
+        text-transform: uppercase;
+        li {
+            display: inline-block;
+            margin: 15px;
+            a {
+                text-decoration: none;
+                color: white;
+                transition: 0.5s all;
+            }
+            a:hover {
+                color: red;
+            }
+            .btn {
+                background-color: red;
+                padding: 10px 20px 10px 20px;
+                border-radius: 10px;
+            }
+            .btn:hover {
+                background-color: rgb(109, 47, 47);
+                color: white;
+            }
+        }
+    }
+}
+
+body {
+    background-color: #0E1729;
+    color: white;
+}
+
+p {
+    font-family: Arial;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0px;
+    p {
+        text-align: center;
+    }
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    .col {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+    .banner {
+        p, h1 {
+            margin: 30px;
+        }
+        h1 {
+            font-size: 40px;
+            font-family: Arial;
+        }
+        .btn {
+            background-color: orange;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 10px;
+        }
+    }
+    /* -- fim do banner --*/
+    #sobre {
+        h2 {
+            text-transform: uppercase;
+            margin: 30px;
+            text-align: center;
+            font-family: Arial;
+        }
+        .image {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(136, 136, 252);
+        }
+        p {
+            font-size: 16px;
+            margin: 30px;
+        }
+    }
+    /* -- Fim do sobre -- */
+    #planos {
+        h2 {
+            font-family: Arial;
+            text-align: center;
+            margin: 30px;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            .col {
+                box-shadow: 0 0 10px rgb(136, 136, 252);
+                border-radius: 5px;
+                margin: 5px;
+                padding: 20px;
+                text-align: center;
+                font-family: Arial;
+                margin: 10px;
+                hr {
+                    border: 1px dashed #ccc;
+                    margin: 20px;
+                }
+                h3 {
+                    color: orange;
+                    text-transform: uppercase;
+                }
+                .valor {
+                    font-size: 18px;
+                    color: red;
+                    strong {
+                        font-size: 24px;
+                    }
+                }
+                ul {
+                    text-align: left;
+                }
+                .btn {
+                    background-color: #8889FD;
+                    padding: 10px;
+                    border-radius: 10px;
+                    text-decoration: none;
+                    transition: all 1s;
+                    color: #FFF;
+                    &:hover {
+                        background-color: #6d6ec6;
+                    }
+                }
+            }
+        }
+    }
+    /* Fim do planos */
+    #depoimentos {
+        h2 {
+            font-family: Arial;
+            text-align: center;
+            margin: 30px;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            .col {
+                box-shadow: 0 0 10px rgb(136, 136, 252);
+                border-radius: 5px;
+                margin: 5px;
+                padding: 20px;
+                text-align: center;
+                font-family: Arial;
+                margin: 10px;
+    
+            }
+        }
+    }
+
+}
+/* -- Fim do main -- */
+
