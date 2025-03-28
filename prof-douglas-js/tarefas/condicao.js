@@ -10,37 +10,63 @@ const prompt = require("prompt-sync")();
 // }
 
 
-let maior,menor;
+// let maior,menor;
 
-let numero1 =Number(prompt("Informe o valor: "));
-maior = numero1;
-menor = numero1;
-let numero2 =Number(prompt("Informe o valor: "));
-if(numero2 > maior){
-    maior = numero2;
+// let numero1 =Number(prompt("Informe o valor: "));
+// maior = numero1;
+// menor = numero1;
+// let numero2 =Number(prompt("Informe o valor: "));
+// if(numero2 > maior){
+//     maior = numero2;
+// }
+// if(numero2 < menor){
+//     menor = numero2
+// }
+// let numero3 =Number(prompt("Informe o valor: "));
+// if(numero3 > maior){
+//     maior = numero3;
+// }
+// if(numero3 < menor){
+//     menor = menor
+// }
+// let numero4 =Number(prompt("Informe o valor: "));
+// if(numero4 > maior){
+//     maior = numero4;
+// }
+// if (numero4 < menor){
+//     menor = numero4
+// }
+// let numero5 =Number(prompt("Informe o valor: "));
+// if (numero5 > maior){
+//     maior = numero5;
+// }
+// if(numero5 < menor){
+//     menor = numero5
+// }
+// console.log("o maior numero é: " + maior + " o menor numero é: "+menor);
+
+
+// let numero =    Number(prompt("Informe um numero:"));
+// if (numero % 2 == 0){
+//     console.log("o numero " + numero +" é par");} else{
+//         console.log("o numero " + numero + " é impar");
+//     }
+    
+
+// let numero = Number(prompt("Informe o numero: "));
+// if((numero %2 == 0) && (numero % 10 == 0)){
+//     console.log("o numero é divisivel por 10 e é par: "+numero);
+// } else{
+//     console.log("numero ou não é par, ou não é divisivel por 10: " + numero);
+// }
+
+let numero = Number(prompt("Informe um numero :"));
+if((numero %7 == 0) || (numero %23 == 0)){
+    console.log("o numero " + numero + " é divisivel por 7 ou por 23: ");
+}else{
+    console.log("o numero não é divisivel por 7 ou por 23")
 }
-if(numero2 < menor){
-    menor = numero2
-}
-let numero3 =Number(prompt("Informe o valor: "));
-if(numero3 > maior){
-    maior = numero3;
-}
-if(numero3 < menor){
-    menor = menor
-}
-let numero4 =Number(prompt("Informe o valor: "));
-if(numero4 > maior){
-    maior = numero4;
-}
-if (numero4 < menor){
-    menor = numero4
-}
-let numero5 =Number(prompt("Informe o valor: "));
-if (numero5 > maior){
-    maior = numero5;
-}
-if(numero5 < menor){
-    menor = numero5
-}
-console.log("o maior numero é: " + maior + " o menor numero é: "+menor);
+    
+
+
+
