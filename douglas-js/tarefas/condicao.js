@@ -60,12 +60,12 @@ const prompt = require("prompt-sync")();
 //     console.log("numero ou não é par, ou não é divisivel por 10: " + numero);
 // }
 
-let numero = Number(prompt("Informe um numero :"));
-if((numero %7 == 0) || (numero %23 == 0)){
-    console.log("o numero " + numero + " é divisivel por 7 ou por 23: ");
-}else{
-    console.log("o numero não é divisivel por 7 ou por 23")
-}
+// let numero = Number(prompt("Informe um numero :"));
+// if((numero %7 == 0) || (numero %23 == 0)){
+//     console.log("o numero " + numero + " é divisivel por 7 ou por 23: ");
+// }else{
+//     console.log("o numero não é divisivel por 7 ou por 23")
+// }
     
 
 
