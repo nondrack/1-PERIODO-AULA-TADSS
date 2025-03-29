@@ -60,13 +60,53 @@ const prompt = require("prompt-sync")();
 //     console.log("numero ou não é par, ou não é divisivel por 10: " + numero);
 // }
 
-let numero = Number(prompt("Informe um numero :"));
-if((numero %7 == 0) || (numero %23 == 0)){
-    console.log("o numero " + numero + " é divisivel por 7 ou por 23: ");
-}else{
-    console.log("o numero não é divisivel por 7 ou por 23")
-}
+// let numero = Number(prompt("Informe um numero :"));
+// if((numero %7 == 0) || (numero %23 == 0)){
+//     console.log("o numero " + numero + " é divisivel por 7 ou por 23: ");
+// }else{
+//     console.log("o numero não é divisivel por 7 ou por 23")
+// }
     
 
 
+let maior;
 
+let primeiro = Number(prompt("Informe o primeiro numero inteiro : "));
+maior = primeiro;
+
+let segundo = Number(prompt("Informe o segundo numero inteiro : "));
+if(segundo > maior){
+    maior = segundo
+}
+
+let terceiro = Number(prompt("Informe o terceiro numero inteiro : "));
+if(terceiro > maior){
+    maior = terceiro
+}
+
+let quarto =Number(prompt("Informe o quarto numero inteiro : "));
+if(quarto > maior){
+    maior = quarto
+}
+
+let quinto = Number(prompt("Informe o quinto numero inteiro: "));
+if (quinto> maior){
+    maior = quinto
+} console.log(maior + ": é o maior numero");
+
+
+if(maior == primeiro){
+    console.log("primeiro digitado é o maior.");
+}
+if(maior == segundo){
+    console.log("segundo digitado é o maior. ");
+}
+ if(maior == terceiro){
+    console.log("terceiro digitado é o maior.");
+}
+ if(maior == quarto){
+    console.log("quarto digitado é o maior.");
+}
+if(maior == quinto){
+    console.log("quinto digitado é o maior.");
+}
