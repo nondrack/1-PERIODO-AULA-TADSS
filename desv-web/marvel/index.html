@@ -10,17 +10,82 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="css/aos.css">
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
 
-        <link rel="icon" href="images/icone.png">
+    <link rel="icon" href="images/icone.png">
 </head>
 
 <body>
     <header class="header">
-        
+        <div class="container">
+            <a href="index.html" title="Home" class="header-logo">
+                <img src="images/logo.png" alt="Marvel">
+            </a>
+
+            <a href="javascript:mostrarmenu()" title="Menu" class="header-menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+
+            <nav class="header-nav">
+            <ul>
+                <li>
+                    <a href="index.html" title="Home">Home</a>
+                </li>
+                <li>
+                    <a href="quadrinhos.htm" title="Quadrinhos">Quadrinhos</a>
+                </li>
+                <li>
+                    <a href="noticias.html" title="Notícias">Notícias</a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">Contato</a>
+                </li>
+            </ul>
+            </nav>
+
+
+        </div>
     </header>
+
+    <div class="banner-mobile">
+        <img src="images/banner-mobile.jpg" alt="Demolidor">
+        <img src="images/daredevil_logo.png" alt="Demolidor" class="img">
+        <p>
+            <a href="demolidor.html" title="Assista agora" class="btn">
+                Assista Agora
+            </a>
+        </p>
+    </div>
+
+    <div class="banner-desktop">
+        <div class="flex">
+
+        
+        <div class="col">
+            <img src="images/daredevil_logo.png" alt="Demolidor">
+            <p>
+                <a href="demolidor.html" title="Demolidor" class="btn">
+                    Assista Agora
+                </a>
+            </p>
+        </div>
+
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        function mostrarmenu() {
+            $(".header-nav").toggle();
+        }
+    </script>
 
 </body>
 
