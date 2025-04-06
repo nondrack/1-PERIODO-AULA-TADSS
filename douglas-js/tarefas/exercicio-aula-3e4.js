@@ -235,3 +235,39 @@ const prompt = require("prompt-sync")();
 //     console.log(dia, mes, ano + " Invalido");
 //   }
 // }
+
+// ex 12 
+
+// let laranjas = Number(prompt("Digite a quantidade de laranja que deseja comprar: "))
+
+// if(laranjas < 12){
+//     console.log("o valo Valor unitario da laranja é R$0,40, você irá pagar : R$ " +(laranjas*0.40).toFixed(2))
+// }else{
+//     if(laranjas >= 12){
+//         console.log("o valo Valor unitario da laranja é R$0,28 você irá pagar : R$ " +(laranjas*0.28).toFixed(2))
+//     }
+// }
+
+// ex 13
+
+// let angulo1 = Number(prompt("Digite o valor do primeiro angulo: "));
+// let angulo2 = Number(prompt("Digite o valor do segundo angulo: "));
+// let angulo3 = Number(prompt("Digite o valor do terceiro angulo: "));
+// let somaDosAngulos = (angulo1 + angulo2 + angulo3)
+
+// if((angulo1 == 90 || angulo2 == 90 || angulo3 == 90) && somaDosAngulos == 180){
+//     console.log("Triangulo Retângulo")
+// }else{
+//     if((angulo1 > 90 || angulo2 > 90 || angulo3 > 90) && somaDosAngulos == 180){
+//         console.log("Triangulo Obtusângulo")
+//     }else{
+//         if((angulo1 < 90 && angulo2 < 90 && angulo3 < 90) && somaDosAngulos == 180){
+//             console.log("Triangulo Acutângulo")
+//         }else{
+//             console.log("Angulos invalidos , pois a somatória dos angulos é menor ou maior que 180°: " + somaDosAngulos)
+//         }
+//     }
+// }
+
+// ex 14
+
