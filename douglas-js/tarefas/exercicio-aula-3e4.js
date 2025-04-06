@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-// EX:1 
+// EX:1
 
 // let nome = prompt("Digite um nome: ");
 // let altura = prompt("Digite sua altura em Metros: ");
@@ -48,15 +48,6 @@ const prompt = require("prompt-sync")();
 
 //EX: 3
 
-// O governo do estado autorizou um aumento de salário para os funcionários
-// públicos. Para tentar aproximar os valores pagos, o aumento depende do
-// valor do salário atual. Para funcionários que ganham até R$ 1320 o aumento
-// será de 11%, para funcionários que ganham entre R$ 1320 e R$ 3000 o
-// aumento será de 9%, para funcionários que ganham entre R$ 3000 e R$
-// 7000, o aumento será de 6%, e finalmente, para os funcionários que ganham
-// mais que R$ 7000, aumento de 1%. Faça um algoritmo que calcule o novo
-// salário a partir do salário atual.
-
 // let salario = Number(prompt("Digite seu salário: "));
 
 // if(salario <= 1320){
@@ -74,8 +65,173 @@ const prompt = require("prompt-sync")();
 
 // EX: 4
 
-let numero1 = Number(prompt("Digite um numero inteiro: "));
-let numero2 = Number(prompt("Digite um numero inteiro: "));
-let numero3 = Number(prompt("Digite um numero inteiro: "));
+// let maior, menor,meio;
 
-let numeros = [numero1,numero2,numero3];
+// let numero1 = Number(prompt("Digite um número inteiro: "));
+// maior = numero1
+// menor = numero1
+// meio = numero1
+
+// let numero2 = Number(prompt("Digite um número inteiro: "));
+// if(numero2 > maior){
+//     maior = numero2
+// }else {
+//     if(numero2 < menor){
+//         menor = numero2
+//     }
+//     else{meio = numero2}
+// }
+
+// let numero3 = Number(prompt("Digite um número inteiro: "));
+// if(numero3 > maior){
+//     maior = numero3
+// }else{
+//     if(numero3 < menor){
+//         menor = numero3
+//     }else{meio = numero3}
+// }
+// let ordem =[menor, meio, maior]
+
+// console.log("A orde crescentes dos números é: " + ordem)
+
+// ex 5
+
+// let prova1 = Number(prompt("Digite o valor da nota prova 1: "));
+// let prova2 = Number(prompt("Digite o valor da nota prova 2: "));
+// let trabalho1 = Number(prompt("Digite o valor da nota trabalho 1: "));
+// let trabalho2 = Number(prompt("Digite o valor da nota trabalho 2: "));
+
+// let media = (prova1 + prova2 + trabalho1 + trabalho2) / 4;
+
+// if (media >= 7.0) {
+//   console.log(media + " Aprovado");
+// } else {
+//   if (media > 4.0 && media < 6.99) {
+//     console.log(media + " Recuperação");
+//   }else{
+//     if(media < 4.0){
+//         console.log(media + " Reprovado")
+//     }
+//   }
+// }
+
+//ex 6
+
+// let ano = Number(prompt("Digite um ano: "));
+
+// if(ano % 400 == 0 || (ano % 4 == 0 && ano % 100 !==0)){
+//     console.log(ano + " é um ano bissexto")
+// }else{
+//     console.log(ano + " Não é um ano bissexto")
+// }
+
+//ex 7
+
+//senha 5479
+
+// let senha = Number(prompt("Digite sua senha: "));
+
+// if(senha == 5479){
+//     console.log("ACESSO PERMITIDO")
+// }else{
+//     console.log("ACESSO NEGADO")
+// }
+
+// ex 8
+
+// Um banco emprega diferentes taxas de correção (anual) para um
+// investimento dependendo do valor aplicado. Para valores até R$ 2000
+// (inclusive) a taxa de correção é de 10%, para valores entre R$ 2000 e R$
+// 5000
+// (inclusive) a taxa de correção é de 12%, para valores maiores que R$ 5000 a
+// taxa de correção é de 13%. Faça um algoritmo que indique a taxa de
+// correção para um dado valor aplicado
+
+// let valor = Number(prompt("Digite um valor a ser investido: "))
+
+// if(valor <= 2000){
+//     console.log(("sua taxa de correção é de 10% ao ano, valor de " + (valor/100)*10))
+// }else{
+//     if(valor > 2000 && valor <= 5000){
+//         console.log("Sua taxa de correção anual é de 12% eo valor sera: R$ " + ((valor/100)*12))
+//     }else{
+//         console.log("Sua taxa de correção anual é de 13% eo valor sera: R$ " + ((valor/100)*13))
+//     }
+// }
+
+// ex 9
+
+// let lados = Number(prompt("Digite a quantidade de lados: "));
+// let medida = Number(prompt("Digite a medida do lado em cm: "));
+
+// if (lados == 3) {
+//   console.log(
+//     "Triângulo eo valor da área é: " +
+//       (Math.pow(medida, 2) * Math.sqrt(3)) / 4 +
+//       " cm"
+//   );
+// } else {
+//   if (lados == 4) {
+//     console.log("quadrado eo valor da área é: " + Math.pow(medida, 2));
+//   } else {
+//     if (lados == 5) {
+//       console.log("Pentágono");
+//     } else {
+//       if (lados < 3) {
+//         console.log("Não é um polígono");
+//       } else {
+//         console.log("Polígno não identificado");
+//       }
+//     }
+//   }
+// }
+
+//ex 10
+
+// let lado1 = Number(prompt("Digite a medida do primeiro lado: "));
+// let lado2 = Number(prompt("Digite a medida do segundo lado: "));
+// let lado3 = Number(prompt("Digite a medida do terceiro lado: "));
+
+// if (lado1 == lado2 && lado2 == lado3) {
+//   console.log("Triangulo equilatero");
+// } else {
+//   if (
+//     (lado1 == lado2 && lado2 != lado3) ||
+//     (lado2 == lado3 && lado3 != lado1) ||
+//     (lado2 == lado1 && lado1 != lado3) ||
+//     (lado3 == lado1 && lado1 != lado2)
+//   ) {
+//     console.log("Triangulo isósceles");
+//   } else {
+//     console.log("Triangulo Escaleno");
+//   }
+// }
+
+//ex 11
+
+// let dia = Number(prompt("Digite um dia: "));
+// let mes = Number(prompt("Digite um mes: "));
+// let ano = Number(prompt("Digite um ano: "));
+// if (
+//   (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 !== 0)) &&
+//   mes == 2 &&
+//   dia <= 29
+// ) {
+//   console.log(dia, mes, ano + " Válido");
+// } else {
+//   if (
+//     (dia <= 31 &&
+//       (mes == 1 ||
+//         mes == 3 ||
+//         mes == 5 ||
+//         mes == 7 ||
+//         mes == 8 ||
+//         mes == 10 ||
+//         mes == 12)) ||
+//     (dia <= 30 && (mes == 4 || mes == 6 || mes == 9 || mes == 11))
+//   ) {
+//     console.log(dia, mes, ano + " Valido");
+//   } else {
+//     console.log(dia, mes, ano + " Invalido");
+//   }
+// }
