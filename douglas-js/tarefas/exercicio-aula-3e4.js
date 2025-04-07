@@ -236,7 +236,7 @@ const prompt = require("prompt-sync")();
 //   }
 // }
 
-// ex 12 
+// ex 12
 
 // let laranjas = Number(prompt("Digite a quantidade de laranja que deseja comprar: "))
 
@@ -271,3 +271,93 @@ const prompt = require("prompt-sync")();
 
 // ex 14
 
+
+// let mes = Number(prompt("Digite um numero que represente um mes: "));
+
+// if (mes == 1) {
+//   console.log("Janeiro");
+// } else {
+//   if (mes == 2) {
+//     console.log("Fevereiro");
+//   } else {
+//     if (mes == 3) {
+//       console.log("Março");
+//     } else {
+//       if (mes == 4) {
+//         console.log("Abril");
+//       } else {
+//         if (mes == 5) {
+//           console.log("Maio");
+//         } else {
+//           if (mes == 6) {
+//             console.log("Junho");
+//           } else {
+//             if (mes == 7) {
+//               console.log("Julho");
+//             } else {
+//               if (mes == 8) {
+//                 console.log("Agosto");
+//               } else {
+//                 if (mes == 9) {
+//                   console.log("Setembro");
+//                 } else {
+//                   if (mes == 10) {
+//                     console.log("Outubro");
+//                   } else {
+//                     if (mes == 11) {
+//                       console.log("Novembro");
+//                     } else {
+//                       if (mes == 12) {
+//                         console.log("Dezembro");
+//                       } else {
+//                         console.log("Mes invalido");
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// ex 15 
+
+
+// let anoNas = Number(prompt("Digite o ano do seu nascimento: "));
+// let idade = (2025 - anoNas)
+
+// if(idade >= 18){
+//     console.log("Sua idade é de " + idade + " e Você vota esse ano")
+// }else{
+//     console.log("Não vota esse ano sua idade é de " + idade + " Anos")
+// }
+
+// ex 16
+
+
+// let prova1 = Number(prompt("Digite a nota da Primeira prova: "));
+// let prova2 = Number(prompt("Digite a nota da Segunda prova: "));
+// let trabalho1 = Number(prompt("Digite a nota da Primeiro trabalho: "));
+// let trabalho2 = Number(prompt("Digite a nota da Segundo trabalho: "));
+// let trabalho3 = Number(prompt("Digite a nota da Terceiro trabalho: "));
+// let trabalho4 = Number(prompt("Digite a nota da Quarto trabalho: "));
+// let mediaProvas = ((prova1 + prova2)/2)
+// let mediaTrabalhos = ((trabalho1 + trabalho2 + trabalho3 + trabalho4)/4)
+// let mediaFinal = ((mediaProvas + mediaTrabalhos)/2)
+
+    
+
+// if(mediaFinal >= 7.0){
+//     console.log("Sua média final é de: " + mediaFinal.toFixed(1) + " Aprovado")
+// }else{
+//     if(mediaFinal > 4.0 && mediaFinal < 6.99){
+//         console.log("Sua média final é de: " + mediaFinal.toFixed(1) + " Recuperação")
+//     }else{
+//         console.log("Sua média final é de: " + mediaFinal.toFixed(1) + " Reprovado")
+//     }
+// }
