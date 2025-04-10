@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel de Boa Esperança</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="images/icone.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" title="Home" class="header-logo">
+                <img src="images/logo.png" alt="Marvel">
+            </a>
+
+            <a href="javascript:mostrarmenu()" title="Menu" class="header-menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <nav class="header-nav">
+                <ul>
+                    <li>
+                        <a href="index.html" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="quadrinhos.html" title="Quadrinhos">Quadrinhos</a>
+                    </li>
+                    <li>
+                        <a href="noticias.html" title="Notícias">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" title="Contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="flex container">
+            <div class="col-esquerda">
+                <h2>Titulo do quadrinho</h2>
+                <img src="images/b1.jpg" alt="1" class="principal">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus omnis excepturi doloribus autem
+                    ab, iure assumenda distinctio totam esse, dolor molestias? Nostrum molestias ab minima magnam natus
+                    neque odit aut.</p>
+            </div>
+            <div class="col-direita">
+                <h3>Ultimos quadrinhos</h3>
+
+            </div>
+    
+    </main>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <p><img src="images/icone.png" title="Marvel"></p>
+            <p>Todos os Direitos Reservados</p>
+            <hr>
+            <p>
+                <a href="#" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" title="Youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        function mostrarmenu() {
+            //document.querySelector('.header-nav')....
+            $(".header-nav").toggle();
+        }
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
