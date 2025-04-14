@@ -1,13 +1,13 @@
-// let numeros = "";
+let numeros = "";
 
-// for( let x= 0; x<=10; x++){
-//     if(x == 10){
-//     numeros = numeros + x ;
-// }else{
-//     numeros = numeros + x + ",";
-// }
-// }
-// console.log(numeros);
+for( let x= 0; x<=10; x++){
+    if(x == 10){
+    numeros = numeros + x ;
+}else{
+    numeros = numeros + x + ",";
+}
+}
+console.log(numeros);
 
 // let soma = 0
 // for(let i=1; i<= 10;i++){
@@ -43,13 +43,13 @@ const prompt = require("prompt-sync")();
 //     numero--;
 // }
 
-let paisa = 900000000
-let paisb = 2000000000
-let qtanos = 0;
-while(paisb > paisa){
-    paisa = paisa* 1.04;
-    paisb = paisb *1.0195;
-    qtanos++;
-}
-console.log("Demorou " + qtanos + " anos para o pais a ter mais habitantes que pais b");
+// let paisa = 900000000
+// let paisb = 2000000000
+// let qtanos = 0;
+// while(paisb > paisa){
+//     paisa = paisa* 1.04;
+//     paisb = paisb *1.0195;
+//     qtanos++;
+// }
+// console.log("Demorou " + qtanos + " anos para o pais a ter mais habitantes que pais b");
 
